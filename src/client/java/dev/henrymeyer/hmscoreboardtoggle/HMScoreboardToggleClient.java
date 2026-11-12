@@ -22,7 +22,6 @@ public final class HMScoreboardToggleClient implements ClientModInitializer {
     private static final KeyMapping TOGGLE_SCOREBOARD = KeyMappingHelper.registerKeyMapping(
             new KeyMapping(
                     "key.hm-scoreboard-toggle.toggle_scoreboard",
-                    InputConstants.Type.KEYSYM,
                     InputConstants.KEY_K,
                     CATEGORY));
 
